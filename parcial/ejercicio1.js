@@ -24,3 +24,8 @@ let familia = {
   console.log(familia.padre);
 
 //4Explica cómo funciona el operador ternario en JavaScript y proporciona un ejemplo de su uso.
+
+//R: el operario ternario es una forma mas facil y concisa de realizar la condicion es muy parecido al while
+var edad = 20;
+var mensaje = (edad >= 18) ? "pelicula apta para mayores de 18+ genero de terror, la profesia del mal, puedes entrar" : "no puedes ingresar, puedes ver mario bros ";
+console.log(mensaje);
