@@ -9,9 +9,8 @@
     "Ejercicio6": "node practicas/ejercicio6.js",
     "Ejercicio7": "node practicas/ejercicio7.js",
     "Ejercicio8": "node practicas/ejercicio8.js",
-    "Ejercicio9": "node practicas/ejercicio9.js",
-    "Ejercicio10": "node practicas/ejercicio10.js"
-  }
+    "Ejercicio9": "node practicas/ejercicio9.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
