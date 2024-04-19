@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    const numeroSecreto = Math.floor(Math.random() * 100) + 1;
+let intentos = 0;
+let guess;
+
+alert("¡Bienvenido al juego de adivinar el número secreto!");
+
+while (true) {
+  guess = parseInt(prompt("Ingresa un número entre 1 y 100:"));
+
+  if (isNaN(guess) || guess < 1 || guess > 100) {
+    alert("Por favor, ingresa un número válido entre 1 y 100.");
+    continue;
+  }
+
+  intentos++;
+
+  if (guess === numeroSecreto) {
+    alert(`¡Felicidades! Adivinaste el número secreto (${numeroSecreto}) en ${intentos} intentos.`);
+    break;
+  } else if (guess < numeroSecreto) {
+    alert("El número secreto es mayor.");
+  } else {
+    alert("El número secreto es menor.");
+  }
+}
+  </script>
+  
+</body>
+</html>
